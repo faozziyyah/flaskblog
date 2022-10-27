@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://github.com/faozziyyah/Edulab-student-portal)
+- Solution URL: (https://github.com/faozziyyah/todoapp)
 - Live link: (Not yet available)
 
 ## My process
