@@ -8,8 +8,8 @@ app = Flask(__name__)
 
 app.secret_key = 'secret'
 def get_db_connection():
-  conn = psycopg2.connect("dbname=todolist user=postgres password=opeyemi2001 host=localhost")
-  #conn = psycopg2.connect("postgres://lrqtcehzeiejyl:48466d99f2102da9054a975354b4322becfede3381f3777ffcc0a649d7c54009@ec2-35-168-122-84.compute-1.amazonaws.com:5432/dbfh4rod9jc9tg")
+  #conn = psycopg2.connect("dbname=todolist user=postgres password=opeyemi2001 host=localhost")
+  conn = psycopg2.connect("postgres://bavagbbtdgtzoa:2439f75b5f04f05796edebfc652f6a95eb52069d2be8f6435d992525429e9ecc@ec2-3-213-66-35.compute-1.amazonaws.com:5432/d6741jm75u6uh6")
   return conn
 
 @app.route('/')
